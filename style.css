@@ -292,6 +292,32 @@ main {
   color: var(--text-dark);
 }
 
+.meeting-contact {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+  line-height: 1.6;
+}
+
+.meeting-contact strong {
+  display: block;
+  margin-bottom: 0.25rem;
+  color: var(--text-dark);
+}
+
+.meeting-contact a {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+  word-break: break-word;
+}
+
+.meeting-contact a:hover {
+  color: var(--accent-color);
+  text-decoration: underline;
+}
+
 /* Footer */
 footer {
   background-color: var(--primary-color);
